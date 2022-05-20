@@ -1,4 +1,4 @@
---//Load fraud
+--//simple loader
 local supportedgames = {
     2788229376, --da hood
 }
