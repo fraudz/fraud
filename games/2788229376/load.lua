@@ -9,7 +9,7 @@ if sets == nil then
         Title = "fraud";
         Text = "your settings were not found please re-execute";
         Duration = 5;
-        Button1 = "Yes";
+        Button1 = "Ok";
     })
 end
 
