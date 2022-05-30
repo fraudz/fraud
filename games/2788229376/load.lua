@@ -13,6 +13,9 @@ if sets == nil then
     })
 end
 
+print(sets.performace)
+print(sets.version)
+
 if sets.performace == false then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fraudz/fraud/main/games/2788229376/normal"..tostring(sets.version)..".lua"))()
 else
