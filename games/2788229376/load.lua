@@ -3,7 +3,7 @@ local sets = getgenv().sets
 if sets == nil then
     getgenv().sets = {
         performance = false,
-        version = 3,
+        version = 0,
     }
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "fraud";
