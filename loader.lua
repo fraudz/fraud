@@ -3,7 +3,7 @@ local supportedgames = {
     2788229376, --da hood
 }
 if table.find(supportedgames,game.PlaceId) then 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/fraudz/fraud/main/games/'..game.PlaceId..'.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fraudz/fraud/main/games/'..game.PlaceId..'/load.lua'))()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "fraud",
