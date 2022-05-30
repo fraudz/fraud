@@ -3,7 +3,7 @@ local sets = getgenv().sets
 if sets == nil then
     getgenv().sets = {
         performance = false,
-        version = 0,
+        version = 3,
     }
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "fraud";
@@ -13,10 +13,7 @@ if sets == nil then
     })
 end
 
-print(sets.performace)
-print(sets.version)
-
-if sets.performace == false then 
+if sets.performance == false then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fraudz/fraud/main/games/2788229376/normal"..tostring(sets.version)..".lua"))()
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fraudz/fraud/main/games/2788229376/performace.lua"))()
