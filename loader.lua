@@ -5,6 +5,7 @@ if not isfile('agreetos.fraud') then
 end
 local supportedgames = {
     2788229376, --da hood
+    7213786345, --da hood vc
 }
 if table.find(supportedgames,game.PlaceId) then 
     if readfile('agreetos.fraud') == 'true' then 
